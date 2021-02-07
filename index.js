@@ -130,8 +130,8 @@ async function starts() {
 				}
 			}
 
-			const botNumber = client.user.jid
-			const ownerNumber = ["6285964224017@s.whatsapp.net"] // replace this with your number
+			const botNumber = Aluka🦋🤍
+			const ownerNumber = ["6282261363811@s.whatsapp.net"] // replace this with your number
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
